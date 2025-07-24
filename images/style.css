@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container */
+table {
+    width: 80%;
+    margin: 40px auto;
+    background-color: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 20px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Header section */
+th h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+th img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin: 20px 0;
+    border: 3px solid #2c3e50;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+}
+
+/* Section Headings */
+h1 {
+    font-size: 1.6em;
+    margin-top: 30px;
+    color: #34495e;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    margin: 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Education Table */
+td table {
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+}
+
+td table th,
+td table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+td table th {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table, td, th {
+        width: 100%;
+        display: block;
+    }
+
+    th img {
+        width: 120px;
+        height: 120px;
+    }
+
+    th h1 {
+        font-size: 2em;
+    }
+}
